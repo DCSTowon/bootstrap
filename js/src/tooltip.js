@@ -411,11 +411,11 @@ class Tooltip extends BaseComponent {
       return
     }
 
-    if (this._config.html) {
-      if (this._config.sanitize) {
-        content = sanitizeHtml(content, this._config.allowList, this._config.sanitizeFn)
-      }
+    if (this._config.sanitize) {
+      content = sanitizeHtml(content, this._config.allowList, this._config.sanitizeFn)
+    }
 
+    if (this._config.html) {
       element.innerHTML = content
     } else {
       element.textContent = content
