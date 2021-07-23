@@ -8,7 +8,7 @@
 import { defineJQueryPlugin } from './util/index'
 import EventHandler from './dom/event-handler'
 import BaseComponent from './base-component'
-
+dfdfdfdf
 /**
  * ------------------------------------------------------------------------
  * Constants
